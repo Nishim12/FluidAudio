@@ -1,0 +1,38 @@
+{
+  "benchmark" : "AMI Corpus Overlapped Speech Detection - Final",
+  "final_results" : {
+    "optimal_threshold" : 0.30000001192092896,
+    "best_der" : 0.33012970046424739,
+    "average_der" : 0.4759005471148221
+  },
+  "meetings_processed" : 5,
+  "per_meeting" : [
+    {
+      "meeting" : "ES2016c",
+      "der" : 0.3609799955046078,
+      "overlap_percent" : 3.8591848686637431
+    },
+    {
+      "overlap_percent" : 13.719815889808842,
+      "meeting" : "TS3008c",
+      "der" : 0.52421197608539138
+    },
+    {
+      "meeting" : "IS1006d",
+      "overlap_percent" : 25.024447108611415,
+      "der" : 0.45786696690730072
+    },
+    {
+      "meeting" : "TS3012c",
+      "der" : 0.50032894736842104,
+      "overlap_percent" : 12.791035292434419
+    },
+    {
+      "der" : 0.53611484970838941,
+      "overlap_percent" : 6.9100172936385666,
+      "meeting" : "IS1003b"
+    }
+  ],
+  "dataset" : "AMI Meeting Corpus",
+  "timestamp" : "2025-09-29T01:44:39Z"
+}
